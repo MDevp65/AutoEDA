@@ -1,10 +1,37 @@
-# AutoEDA
-I have uploaded an app named as AutoEDA. In this app you can achieve automatic exploatory data analysis. You have to simply upload a csv file and in return you will get an analysis report.
+# AutoEDA: Automated Exploratory Data Analysis for CSV Files
 
-## Technologies
-In this app, I used react as a frontend and fastapi as a backend. 
+**AutoEDA** is an open-source web application designed to simplify and accelerate the process of Exploratory Data Analysis (EDA) for CSV data. By uploading a CSV file, users can quickly generate a comprehensive analysis report, gaining valuable insights into their data with minimal effort.
 
-> To run this app, you have to run two server, first is for react and second is for fastapi. You can also set command to run both server at a time.
+### Key Features:
 
-### Note: 
-This is simply an open source app. You can copy a code and modify it. You can add authentication process. You can also add more features. The core concept is how to connect react and fastapi, how to perform auto analysis. By the way, i used ydataprofiling for auto analysis, which return .html file. You can also add some more format like json, pdf, etc.
+1. **Automated EDA**: Streamlines the data exploration process.
+2. **CSV File Upload**: Users upload their data in CSV format.
+3. **Instant Analysis Reports**: Receive a detailed report after uploading.
+4. **React and FastAPI**: Built using a modern web stack (React for the frontend and FastAPI for the backend).
+5. **Pandas Profiling**: Uses the powerful Pandas Profiling library to generate the analysis reports in HTML format.
+
+### How to Use:
+
+- Upload a CSV file.
+- The application automatically analyzes the data.
+- Download an HTML report containing the analysis.
+- Technical Details:
+
+AutoEDA demonstrates how to connect a React frontend with a FastAPI backend to perform data processing. The backend leverages Pandas Profiling to generate detailed analysis reports.
+
+### Open Source and Contributions:
+
+This is an open-source project, and contributions are welcome! Feel free to fork the repository, modify the code, and enhance the application.
+
+### Potential Enhancements:
+
+- Add user authentication.
+- Support additional report formats (e.g., JSON, PDF).
+- Implement more advanced data analysis features.
+This project serves as a starting point for building more sophisticated data analysis tools.
+
+
+
+
+
+
