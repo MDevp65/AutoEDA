@@ -4,7 +4,7 @@ I have uploaded an app named as AutoEDA. In this app you can achieve automatic e
 ## Technologies
 In this app, I used react as a frontend and fastapi as a backend. 
 
-> To run this app, you have to run two server, first is for react and second is for fastapi.<br>
+> To run this app, you have to run two server, first is for react and second is for fastapi. You can also set command to run both server at a time.
 
 ### Note: 
 This is simply an open source app. You can copy a code and modify it. You can add authentication process. You can also add more features. The core concept is how to connect react and fastapi, how to perform auto analysis. By the way, i used ydataprofiling for auto analysis, which return .html file. You can also add some more format like json, pdf, etc.
